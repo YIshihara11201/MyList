@@ -159,10 +159,6 @@ public class MyArrayList<E> implements List<E> {
 
     @Override
     public boolean addAll(int index, Collection<? extends E> c) {
-        // review later ********
-        // review later ********
-        // review later ********
-        // review later ********
 
         // TODO: Exercise
         if(index<0 || index>elementData.length||c.size()==0) return false;
